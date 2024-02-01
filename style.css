@@ -1,0 +1,30 @@
+body{
+    background-color: #202020;
+    color: white;
+}
+
+.colors{
+    border: 2px solid white;
+    padding: 15px;
+    margin: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors >div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 999px;
+    height: 150px;
+    aspect-ratio:  1/1; /* Maintain square shape */
+    margin: 20px;
+
+}
+
+.colors > div:hover{
+    cursor: pointer;
+}
